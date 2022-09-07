@@ -1,0 +1,25 @@
+{
+	"name": "nodejs",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"type": "module",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "nodemon index.js"
+	},
+	"dependencies": {
+		"axios": "latest",
+		"express": "latest",
+		"mongoose": "latest",
+		"dotenv": "latest",
+		"cors": "latest",
+		"body-parser": "latest",
+		"cookie-parser": "latest",
+		"crypto-js": "latest",
+		"jsonwebtoken": "latest"
+	},
+	"devDependencies": {
+		"nodemon": "latest"
+	}
+}
